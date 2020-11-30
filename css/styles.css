@@ -1,0 +1,79 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ea86b6;
+}
+
+/* Super Container Used to Indent Padding */
+.container-fluid {
+  padding: 3% 15% !important;
+}
+
+/* Styles the "Tindog title" */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem !important;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-left: -1rem;
+}
+
+/* Styles the subtitle "Meet new and interesting dogs" */
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+/* Styles "Contact, Pricing, Download" */
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Styles the Download buttons */
+.download-btn {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+}
+
+/* Rotates the iPhone image to the right slightly */
+.iphone-img {
+  transform: rotate(25deg);
+  width: 60%;
+  padding-left: 2.5rem;
+}
+
+/* Centers all elements for features section */
+.features-container {
+  text-align: center;
+}
+
+/* ✅ 🎯 🧡 Icons Style */
+.fas {
+  color: #ef8172;
+  padding-bottom: 1rem;
+  margin-top: 5rem;
+}
+
+/* Changes icon colors when hover */
+.fas:hover {
+  color: #ff4c68;
+}
+
+/* Features subtext section styling */
+.features-subtext {
+  color: #8f8f8f;
+  margin-bottom: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 4.5%;
+}
