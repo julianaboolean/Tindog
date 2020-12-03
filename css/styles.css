@@ -2,17 +2,17 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
 h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
 #title {
   background-color: #ea86b6;
-}
-
-/* Super Container Used to Indent Padding */
-.container-fluid {
-  padding: 3% 15% !important;
+  position: relative;
 }
 
 /* Styles the "Tindog title" */
@@ -58,6 +58,32 @@ h3 {
   text-align: center;
 }
 
+/* Super Container Used to Indent Padding */
+.container-fluid {
+  padding: 3% 15% !important;
+}
+
+/* Wavy background design  */
+.custom-shape-divider-bottom-1606964591 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1606964591 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 176px;
+}
+
+.custom-shape-divider-bottom-1606964591 .shape-fill {
+    fill: #FFFFFF;
+}
+
 /* ✅ 🎯 🧡 Icons Style */
 .fas {
   color: #ef8172;
@@ -76,4 +102,34 @@ h3 {
   margin-bottom: 5rem;
   font-family: 'Montserrat', sans-serif;
   padding: 4.5%;
+}
+
+/* Testimonial Section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #8db596;
+}
+
+.Testimony {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Rounded Dog Photo */
+.testimonial-img {
+  border-radius: 50%;
+  width: 28%;
+  padding: 3% 2%;
+}
+
+.Dog-Location {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #fff;
 }
