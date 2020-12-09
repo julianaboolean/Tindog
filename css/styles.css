@@ -10,10 +10,9 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat-Black', sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
-  font-weight: 700 !important;
 }
 
 p {
@@ -26,7 +25,11 @@ p {
 
 #title {
   background-color: #ea86b6;
-  position: relative;
+}
+
+/* Super Container for Title Section to Indent Padding */
+.title-container {
+  padding: 3% 15% 13% !important;
 }
 
 /* Styles the "Tindog title" */
@@ -44,58 +47,49 @@ p {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
-  color: #fff;
+  color: #FFF;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* Styles "Contact, Pricing, Download" */
 .nav-link {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
+}
+
+/* Spaces out the "Contact, Pricing, Download" */
+.nav-item {
+  padding-right: 3rem;
 }
 
 /* Styles the Download buttons */
 .download-btn {
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
+  margin-right: 3%;
 }
 
 /* Rotates the iPhone image to the right slightly */
 .iphone-img {
   transform: rotate(25deg);
-  width: 60%;
-  padding-left: 2.5rem;
+  position: absolute;
+  max-width: 60%;
+  right: 30%;
+  padding-top: 5rem;
 }
 
 /* Centers all elements for features section */
-.features-container {
+#features {
+  position: relative;
+  background-color: #fff;
   text-align: center;
 }
 
-/* Super Container Used to Indent Padding */
-.container-fluid {
-  padding: 3% 15% !important;
-}
-
-/* Wavy background design  */
-.custom-shape-divider-bottom-1606964591 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-bottom-1606964591 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 176px;
-}
-
-.custom-shape-divider-bottom-1606964591 .shape-fill {
-  fill: #FFFFFF;
+/* Super Container for Features Section to Indent Padding */
+.feature-container {
+  padding: 3% 15% 7% !important
 }
 
 /* ✅ 🎯 🧡 Icons Style */
@@ -132,7 +126,7 @@ p {
   color: #fff;
 }
 
-/* Rounded Dog Photo */
+/* Rounded Testimonial Photos */
 .testimonial-img {
   border-radius: 50%;
   width: 20%;

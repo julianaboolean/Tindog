@@ -31,7 +31,7 @@
 <body>
 
   <section id="title">
-    <div class="container-fluid">
+    <div class="container-fluid title-container">
 
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -43,14 +43,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <!-- pr-5 = Spaces the padding right out by 3rems -->
-              <a class="nav-link pr-5" href="#">Contact</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pr-5" href="#">Pricing</a>
+              <a class="nav-link" href="#">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pr-5" href="#">Download</a>
+              <a class="nav-link" href="#">Download</a>
             </li>
           </ul>
         </div>
@@ -60,28 +59,22 @@
       <div class="row">
         <!-- col-lg-6 = Creates 2 columns on larger displays -->
         <div class="col-lg-6">
-          <h1 class="subtitle mb-5 mt-5">Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg mr-3 download-btn"><i class="fab fa-apple"></i> Download</button>
+          <h1 class="subtitle">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
           <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+          <!-- Nested iphone image right of download buttons  -->
         </div>
-        <!-- Nested iphone image right of download buttons  -->
-        <div class="row mt-5 pb-5">
+        <div class="col-lg-6 mb-5">
           <img src="images/iphone6.png" class="iphone-img" alt="iphone-mockup">
         </div>
       </div>
-    </div>
-    <!-- Wavy Design -->
-    <div class="custom-shape-divider-bottom-1606964591">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-      </svg>
     </div>
   </section>
 
 
   <!-- Features Section -->
-  <div class="container-fluid features-container">
-    <section id="features">
+  <section id="features">
+    <div class="container-fluid feature-container">
       <div class="row">
 
         <!-- Creates a 3 column layout on large displays & 1 column for iPad/mobile-->
@@ -106,7 +99,7 @@
         </div>
 
       </div>
-  </div>
+    </div>
   </section>
 
 
