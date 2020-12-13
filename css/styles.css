@@ -184,12 +184,11 @@ p {
 .cta-container {
   background-color: #ea86b6;
   text-align: center;
-  padding: 8% 12% !important;
-
+  padding: 7% 15% !important;
 }
 
 /* Styles Find the True Love of... */
-.cta-title {
+.cta-heading {
   font-family: 'Montserrat', sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
@@ -200,17 +199,40 @@ p {
 
 /* Copyright section */
 .footer-container {
-  padding: 2% 12% !important;
+  padding: 5% 12% !important;
   background-color: #fff;
   text-align: center;
 }
 
 /* Twitter, facebook, insta, email */
 .socials {
-  padding: 1%;
+  padding: 1.7%;
   color: black;
 }
 
+/* Preserves spacing for socials" on mobile viewports */
+@media screen and (max-width: 1028px) {
+  .socials {
+    padding: 2.2%;
+  }
+}
+
+/* Changes social icon colors when hover */
+.twitter:hover {
+  color: #1DA1F2;
+}
+
+/* Changes social icon colors when hover */
+.facebook:hover {
+  color: #4267B2;
+}
+
+/* Changes social icon colors when hover */
+.insta:hover {
+  color: #E1306C;
+}
+
+/* Copyright p text */
 .copyright {
   font-size: 1rem !important;
   padding-top: 2%;
