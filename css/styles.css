@@ -19,7 +19,7 @@ p {
   color: #8f8f8f;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
-  line-height: 1.5;
+  line-height: 1.5 !important;
   font-weight: 500;
 }
 
@@ -52,10 +52,17 @@ p {
   margin-bottom: 5%;
 }
 
+/* Centers "Meet new and interesting..." on mobile viewports */
+@media screen and (max-width: 1028px) {
+  .subtitle {
+    text-align: center;
+  }
+}
+
 /* Styles "Contact, Pricing, Download" */
 .nav-link {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
@@ -75,9 +82,17 @@ p {
 .iphone-img {
   transform: rotate(25deg);
   position: absolute;
-  max-width: 60%;
   right: 30%;
-  padding-top: 5rem;
+  padding-top: 4.5rem;
+  width: 55%;
+}
+
+/* Makes iphone img  straight and static on mobile devices */
+@media screen and (max-width: 1028px) {
+  .iphone-img {
+    position: static;
+    transform: rotate(0deg);
+  }
 }
 
 /* Centers all elements for features section */
@@ -163,4 +178,40 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* Find the True Love... Call to Action */
+.cta-container {
+  background-color: #ea86b6;
+  text-align: center;
+  padding: 8% 12% !important;
+
+}
+
+/* Styles Find the True Love of... */
+.cta-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #FFF;
+  padding-bottom: 3%;
+}
+
+/* Copyright section */
+.footer-container {
+  padding: 2% 12% !important;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Twitter, facebook, insta, email */
+.socials {
+  padding: 1%;
+  color: black;
+}
+
+.copyright {
+  font-size: 1rem !important;
+  padding-top: 2%;
 }
