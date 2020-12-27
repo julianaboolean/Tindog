@@ -50,7 +50,7 @@ p {
 /* Styles the "Tindog title" */
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 3rem;
+  font-size: 3rem !important;
   line-height: 1.5;
   font-weight: 500;
   margin-left: -1rem;
