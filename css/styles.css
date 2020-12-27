@@ -31,16 +31,26 @@ p {
   font-weight: 800;
 }
 
+/* Section Classes ⬇️ */
+.color-section {
+  background-color: #ea86b6;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  text-align: center;
+}
+
 /* Super Container for Title Section to Indent Padding */
 .title-container {
   padding: 3% 15% 13% !important;
-  background-color: #ea86b6;
 }
 
 /* Styles the "Tindog title" */
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 3rem !important;
+  font-size: 3rem;
   line-height: 1.5;
   font-weight: 500;
   margin-left: -1rem;
@@ -92,8 +102,6 @@ p {
 /* Centers all elements for features section */
 #features {
   position: relative;
-  background-color: #fff;
-  text-align: center;
 }
 
 /* Super Container for Features Section to Indent Padding */
@@ -124,7 +132,6 @@ p {
   color: #8f8f8f;
   margin-bottom: 5rem;
   padding: 4.5%;
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 500;
@@ -140,7 +147,6 @@ p {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
-  color: #fff;
 }
 
 /* Rounded Testimonial Photos */
@@ -159,7 +165,6 @@ p {
   font-size: 1.5rem;
   line-height: 1.5;
   font-weight: 300;
-  color: #fff;
 }
 
 #press {
@@ -175,7 +180,6 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
@@ -184,7 +188,6 @@ p {
 
 /* Find the True Love... Call to Action */
 .cta-container {
-  background-color: #ea86b6;
   text-align: center;
   padding: 7% 15% !important;
 }
@@ -194,15 +197,12 @@ p {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
-  color: #FFF;
   padding-bottom: 3%;
 }
 
 /* Copyright section */
 .footer-container {
   padding: 5% 12% !important;
-  background-color: #fff;
-  text-align: center;
 }
 
 /* Twitter, facebook, insta, email */
